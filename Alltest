@@ -9,10 +9,17 @@ for w in $@
 do 
 (
     cd ${w} || exit
-    ./test
-    
-    zip -j  submit.zip $(ls -f *.java)
-
+    for java_files in $(ls -f *.java) 
+    do
+    class_file=${java_files%.*}.class
+    if [ -f "$class_file" ]; then
+        echo "$class_file exists."
+    else
+        javac ${java_files}
+    fi
+  
+done
+./test   
 )
 
 done

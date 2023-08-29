@@ -1,0 +1,22 @@
+#!/bin/bash
+
+java GeneralizedHarmonic 1 1
+java GeneralizedHarmonic 2 1
+java GeneralizedHarmonic 3 1
+java GeneralizedHarmonic 1 2
+java GeneralizedHarmonic 2 2
+java GeneralizedHarmonic 3 2
+java BandMatrix 8 0
+java BandMatrix 8 1
+java BandMatrix 8 2
+java BandMatrix 8 3
+java RandomWalker 5
+java RandomWalkers 5 1000000
+java RandomWalkers 5 1000000
+java RandomWalkers 10 100000
+java RandomWalkers 20 100000
+java RandomWalkers 40 100000
+java RandomWalkers 80 100000
+java RandomWalkers 160 100000
+
+
