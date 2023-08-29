@@ -1,0 +1,12 @@
+#!/bin/bash
+
+java -cp .:../stdlib.jar ShannonEntropy 2 < fair-coin.txt
+java -cp .:../stdlib.jar  ShannonEntropy 6 < loaded-die.txt
+java -cp ../Week3 DiscreteDistribution 1000000 80 20 | java -cp .:../stdlib.jar ShannonEntropy 2
+java -cp ../Week3 DiscreteDistribution 1000000 80 20 | java -cp .:../stdlib.jar ShannonEntropy 2
+java -cp .:../stdlib.jar Checkerboard 8
+java -cp .:../stdlib.jar Checkerboard 4
+java -cp .:../stdlib.jar Checkerboard 5
+java -cp .:../stdlib.jar WorldMap < usa.txt
+java -cp .:../stdlib.jar WorldMap < russia.txt
+java -cp .:../stdlib.jar WorldMap < world.txt

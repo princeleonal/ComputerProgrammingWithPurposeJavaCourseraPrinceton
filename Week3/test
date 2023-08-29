@@ -1,0 +1,12 @@
+#!/bin/bash
+
+java DiscreteDistribution 25 1 1 1 1 1 1
+java DiscreteDistribution 25 10 10 10 10 10 50
+java DiscreteDistribution 25 80 20
+java DiscreteDistribution 100 301 176 125 97 79 67 58 51 46
+java ThueMorse 4
+java ThueMorse 8
+java ThueMorse 16
+java Birthday 365 1000000
+java Birthday 31 1000000
+java Minesweeper 9 9 10

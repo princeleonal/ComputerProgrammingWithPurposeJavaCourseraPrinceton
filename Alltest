@@ -15,7 +15,7 @@ do
     if [ -f "$class_file" ]; then
         echo "$class_file exists."
     else
-        javac ${java_files}
+        javac -cp .:../stdlib.jar ${java_files}
     fi
   
 done
