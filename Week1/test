@@ -1,0 +1,23 @@
+#!/bin/bash
+
+for java_files in $(ls -f $(pwd)/*.java) 
+do
+class_file=${java_files%.*}.class
+if [ -f "$class_file" ]; then
+    echo "$class_file exists."
+else
+    javac ${java_files}
+fi
+done
+
+java HelloWorld
+java HelloGoodbye Kevin Bob
+java HelloGoodbye Alejandra Bahati
+java RightTriangle 3 4 5
+java RightTriangle 13 12 5
+java RightTriangle 1 2 3
+java RightTriangle -3 4 -5
+java GreatCircle 40.35 74.65 48.87 -2.33
+java GreatCircle 60.0 15.0 120.0 105.0
+java CMYKtoRGB 0.0 1.0 0.0 0.0 
+java CMYKtoRGB 0.0 0.4392156862745098 1.0 0.0

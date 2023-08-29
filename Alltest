@@ -1,0 +1,18 @@
+#!/bin/bash 
+
+#automatically compile java files and perform tests on the given week directory
+
+export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64/"
+export PATH=$JAVA_HOME/bin:$PATH
+
+for w in $@ 
+do 
+(
+    cd ${w} || exit
+    ./test
+    
+    zip -j  submit.zip $(ls -f *.java)
+
+)
+
+done
