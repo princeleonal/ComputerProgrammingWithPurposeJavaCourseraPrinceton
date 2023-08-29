@@ -6,20 +6,14 @@ This repository contains my solutions to the programming assignment in the cours
 
 <ul>
 <li><a href="https://github.com/YagmurGULEC/ComputerProgrammingWithPurposeJavaCourseraPrinceton/blob/main/Week1">Week1</a>
-<ul><li></li></ul></li>
 <ul>
-  <li><a href="https://github.com/YagmurGULEC/ComputerProgrammingWithPurposeJavaCourseraPrinceton/blob/main/Week1">Week1</a><ul>
-      <li> <a href="https://github.com/YagmurGULEC/ComputerProgrammingWithPurposeJavaCourseraPrinceton/blob/main/Week1/HelloWorld.java">HelloWorld.java</a> </li>
-        <li> <a href="https://github.com/YagmurGULEC/ComputerProgrammingWithPurposeJavaCourseraPrinceton/blob/main/Week1/HelloGoodbye.java">HelloGoodbye.java</a> </li>
-<li> <a href="https://github.com/YagmurGULEC/ComputerProgrammingWithPurposeJavaCourseraPrinceton/blob/main/Week1/RightTriangle.java">RightTriangle.java</a> </li>
-<li> <a href="https://github.com/YagmurGULEC/ComputerProgrammingWithPurposeJavaCourseraPrinceton/blob/main/Week1/GreatCircle.java">GreatCircle.java</a> </li>
-<li> <a href="https://github.com/YagmurGULEC/ComputerProgrammingWithPurposeJavaCourseraPrinceton/blob/main/Week1/CMYKtoRGB.java">CMYKtoRGB.java</a> </li>
-      </ul>
-  </li>
- 
+<li> <a href="https://github.com/YagmurGULEC/ComputerProgrammingWithPurposeJavaCourseraPrinceton/blob/main/Week1/HelloWorld.java">HelloWorld.java</a> </li>
 </ul>
-</ul> 
+</li>
+<li><a href="https://github.com/YagmurGULEC/ComputerProgrammingWithPurposeJavaCourseraPrinceton/blob/main/Week2">Week2</a></li>
+<li><a href="https://github.com/YagmurGULEC/ComputerProgrammingWithPurposeJavaCourseraPrinceton/blob/main/Week3">Week3</a></li>
 
+</ul>
 
 
 ## How to use
