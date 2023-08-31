@@ -13,13 +13,20 @@ do
     do
     class_file=${java_files%.*}.class
     if [ -f "$class_file" ]; then
-        echo "$class_file exists."
+        echo "$classfile exists"
+        rm -rf $class_file
+        javac -cp .:../stdlib.jar ${java_files}
     else
+        echo "recompile"
         javac -cp .:../stdlib.jar ${java_files}
     fi
-  
+    
 done
-./test   
+./test && zip -j  submit.zip $(ls -f *.{java,wav} )
+#&& zip -j  submit.zip $(ls -f *.java )
+#for Week 5
+#zip -j  submit.zip $(ls -f *.{java,wav} )
+
 )
 
 done

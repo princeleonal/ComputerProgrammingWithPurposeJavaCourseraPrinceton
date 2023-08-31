@@ -1,0 +1,25 @@
+#!/bin/bash
+
+set JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64/"
+export JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64/"
+export PATH=$JAVA_HOME/bin:$PATH
+
+cd ${0%/*} || exit 1    # Run from this directory
+
+assignment=("Week3_trial")
+for a in ${assignment[@]} 
+do
+(
+    cd ${assignment} || exit
+   for java_files in $(ls -f Birthday.java) 
+    do
+
+    java Birthday 4 4 
+    done
+
+)
+
+    
+    
+
+done

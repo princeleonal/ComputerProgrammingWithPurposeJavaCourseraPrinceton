@@ -1,0 +1,32 @@
+#!/bin/bash
+set JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64/"
+export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64/"
+export PATH=$JAVA_HOME/bin:$PATH
+
+cd ${0%/*} || exit 1    # Run from this directory
+
+# assignment="Week4"
+
+
+# (
+
+#     cd ${assignment} || exit
+#     for java_files in $(ls -f *.java) 
+#     do
+#     name=$(basename ${java_files} .java)
+#     javac -cp .:../stdlib.jar ${java_files} 
+    
+#     done
+#     #java -cp .:../stdlib.jar RandomSeq  1000 > data.txt
+#     #java -cp .:../stdlib.jar Average < data.txt
+#     #java -cp  .:../stdlib.jar RandomSeq  1000 | java -cp .:../stdlib.jar Average
+#     #java -cp .:../stdlib.jar RandomSeq 8 > data.txt
+#     #java -cp .:../stdlib.jar Q45 < data.txt | java -cp .:../stdlib.jar Q45 |  java -cp .:../stdlib.jar Q45
+#     #java -cp .:../stdlib.jar ShannonEntropy 2 < fair-coin.txt
+#     #java -cp .:../stdlib.jar ShannonEntropy 8 < loaded-die.txt
+#     #java -cp ../Week3 DiscreteDistribution 1000000 80 20 | java -cp .:../stdlib.jar ShannonEntropy 2
+#     #java -cp .:../stdlib.jar Checkerboard 5
+#     java -cp .:../stdlib.jar WorldMap < usa.txt
+# )
+
+

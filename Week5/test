@@ -1,0 +1,8 @@
+#!/bin/bash
+
+java -cp .:../stdlib.jar ActivationFunction 0.0
+java -cp .:../stdlib.jar ActivationFunction 1.0
+java -cp .:../stdlib.jar ActivationFunction -0.5
+java -cp .:../stdlib.jar Divisors  1440 408
+java -cp .:../stdlib.jar Divisors  987 610
+
