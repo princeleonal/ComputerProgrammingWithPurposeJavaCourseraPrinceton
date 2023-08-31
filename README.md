@@ -37,7 +37,12 @@ This repository contains my solutions to the programming assignment in the cours
 <li> <a href="https://github.com/YagmurGULEC/ComputerProgrammingWithPurposeJavaCourseraPrinceton/blob/main/Week4/Checkerboard.java">Checkerboard.java</a> </li>
 <li> <a href="https://github.com/YagmurGULEC/ComputerProgrammingWithPurposeJavaCourseraPrinceton/blob/main/Week4/WorldMap.java">Birthday.java</a> </li>
 </ul></li>
-
+<li><a href="https://github.com/YagmurGULEC/ComputerProgrammingWithPurposeJavaCourseraPrinceton/blob/main/Week5">Week5</a><a href="https://coursera.cs.princeton.edu/introcs/assignments/functions/specification.php">Specification</a>
+<ul>
+<li> <a href="https://github.com/YagmurGULEC/ComputerProgrammingWithPurposeJavaCourseraPrinceton/blob/main/Week5/ActivationFunction.java">ActivationFunction.java</a> </li>
+<li> <a href="https://github.com/YagmurGULEC/ComputerProgrammingWithPurposeJavaCourseraPrinceton/blob/main/Week5/Divisors.java">Divisors.java</a> </li>
+<li> <a href="https://github.com/YagmurGULEC/ComputerProgrammingWithPurposeJavaCourseraPrinceton/blob/main/Week5/AudioCollage.java">AudioCollage.java</a> </li>
+</ul></li>
 </ul>
 
 
