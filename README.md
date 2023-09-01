@@ -44,7 +44,7 @@ This repository contains my solutions to the programming assignment in the cours
 <li> <a href="https://github.com/YagmurGULEC/ComputerProgrammingWithPurposeJavaCourseraPrinceton/blob/main/Week5/AudioCollage.java">AudioCollage.java</a> </li>
 </ul></li>
 </ul>
-
+![Grades from Week 1 to 5](https://github.com/YagmurGULEC/ComputerProgrammingWithPurposeJavaCourseraPrinceton/Grades_1.png)  
 
 ## How to use
 The bash script <a href="https://github.com/YagmurGULEC/ComputerProgrammingWithPurposeJavaCourseraPrinceton/blob/main/Alltest">Alltest</a> can be used to test all the codes belonging to the given weeks from command line. For instance ./Alltest Week1. Tests for each week are written according to its specifications.
